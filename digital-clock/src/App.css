@@ -1,7 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  height: 100dvh;
   font-size: 4rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ClockWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.digitWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  width: 100px;
+  height: 200px;
+}
+
+.numberWrapper {
+  height: 200px;
+}
+
+.number {
+  width: 100px;
+  height: 100px;
+}
+
+.separator {
+  color: tomato;
+}
+
+.zeroTop {
+  border-top: 10px solid tomato;
+  border-left: 10px solid tomato;
+  border-right: 10px solid tomato;
+}
+
+.zeroBottom {
+  border-left: 10px solid tomato;
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.oneTop {
+  border-right: 10px solid tomato;
+}
+
+.oneBottom {
+  border-right: 10px solid tomato;
+}
+
+.twoTop {
+  border-top: 10px solid tomato;
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.twoBottom {
+  border-left: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.threeTop {
+  border-top: 10px solid tomato;
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.threeBottom {
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.fourTop {
+  border-left: 10px solid tomato;
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.fourBottom {
+  border-right: 10px solid tomato;
+}
+
+.fiveTop {
+  border-top: 10px solid tomato;
+  border-left: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.fiveBottom {
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.sixTop {
+  border-top: 10px solid tomato;
+  border-left: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.sixBottom {
+  border-left: 10px solid tomato;
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.sevenTop {
+  border-top: 10px solid tomato;
+  border-right: 10px solid tomato;
+}
+
+.sevenBottom {
+  border-right: 10px solid tomato;
+}
+
+.eightTop {
+  border-top: 10px solid tomato;
+  border-left: 10px solid tomato;
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.eightBottom {
+  border-left: 10px solid tomato;
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.nineTop {
+  border-top: 10px solid tomato;
+  border-left: 10px solid tomato;
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
+}
+
+.nineBottom {
+  border-right: 10px solid tomato;
+  border-bottom: 10px solid tomato;
 }
